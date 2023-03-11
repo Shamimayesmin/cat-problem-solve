@@ -90,28 +90,6 @@ console.log("top",top3_2024);
 console.log( 'bottom',bottom3_2024);
 
 
-const all_skills = [
-	{name:"Agility and Coordination", score2019: 64, score2024: 71},
-	{name:"Hunting and Predatory Skills",score2019: 76, score2024: 70},
-	{name:"Communication",score2019: 60, score2024: 75},
-	{name:"Adaptability",score2019: 82, score2024: 63},
-	{name:"Independence",score2019: 67, score2024: 78},
-    { name: 'Affection and Socialization', score2019: 70, score2024: 84 },
-	{name:"Climbing",score2019: 90, score2024: 95},
-	{name:"Balance",score2019: 88, score2024: 96},
-	{name:"Senses",score2019: 86, score2024: 90},
-	{name:"Flexibility",score2019: 75, score2024: 83},
-	{name:"Problem-solving",score2019: 67, score2024: 78},
-	{name:"Stealth",score2019: 59, score2024: 72},
-];
-
-const sortedCapabilities = all_skills.sort((a, b) => (b.score2024 - b.score2019) - (a.score2024 - a.score2019));
-
-//  top-3 accelerating
-console.log('Top-3 accelerating capabilities:');
-for (let i = 0; i < 3; i++) {
-    console.log((sortedCapabilities[i].name),(sortedCapabilities[i].score2024 - sortedCapabilities[i].score2019));
-};
 
 
 
